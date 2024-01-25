@@ -1,5 +1,5 @@
 # PyOpcodeObfuscation
-Scripts for obfuscating Python opcodes &amp; for modifying interpreter code based on custom opcodes
+Scripts for obfuscating Python opcodes &amp; for modifying a clean interpreter based on custom opcodes retrieved through the opcode.opmap function
 
 
 I've commented out the os.system call (better ways of executing system commands, but will leave that up to you to decide) so it won't compile, to hopefully handle multiple platforms. 
